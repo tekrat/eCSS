@@ -1,0 +1,1 @@
+function eCSS(a,b){if(r="",Array.isArray(a))for(var c in a)r+=(""==r?"":", ")+a[c];else r=a;r+="{\r\n";for(var c in b)r+="\t"+c+":"+b[c]+";\r\n";return r+="}\r\n",r}
